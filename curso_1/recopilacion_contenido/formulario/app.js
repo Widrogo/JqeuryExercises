@@ -1,6 +1,13 @@
 $(function(){
   $('#btnAgregarTelefono').click(function(){
-    $('#telefono').append('<div><input type="text" placeholder="otro."/><button class="borrarTelefono" onclick="eliminarTelefono(this.element)"></div>');
+    $('#telefonos').append('<div><input type="text" placeholder="otro."/><button class="borrarTelefono" onclick="eliminarTelefono(this);"><strong>X</strong></button></div>');
   });
-  $().click
-})
+  $('#btnEnviar').click(function(){
+    var nombre = $('#nombre').attr('value');
+    var apellido = $('#apellido').attr('value');
+    $('<h1>'+ nombre + ' ' + apellido + '<br/> Gracias por su comentario</h1>').replaceAll('#formulario');
+  });
+});
+function eliminarTelefono(telefono){
+  $(telefono).parent().remove();
+}
