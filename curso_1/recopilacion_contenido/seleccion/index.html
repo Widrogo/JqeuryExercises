@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <script charset="utf-8"  src="../../app/components/jquery/dist/jquery.min.js"></script>
+    <script charset="utf-8" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <th>
+            Selector
+          </th>
+          <th>
+            Selecciona
+          </th>
+          <th>
+            Ejemplo
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <strong>$(*)</strong>
+          </td>
+          <td>
+            <strong>Todo el documento</strong>
+          </td>
+          <td>
+            <input type="button" id="asterisco" value="Seleccionar">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>$('#correo')</strong>
+          </td>
+          <td>
+            <strong>Elemento que  tengo el id correo</strong>
+          </td>
+          <td>
+            <input type="button" id="signoDeNumero" value="Seleccionar">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>$('.campo')</strong>
+          </td>
+          <td>
+            <strong>Todos los elementos que tengan la clase campo</strong>
+          </td>
+          <td>
+            <input type="button" id="campo" value="Seleccionar">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>$('div')</strong>
+          </td>
+          <td>
+            <strong>Todos los elementos que tengan la clase div</strong>
+          </td>
+          <td>
+            <input type="button" id="selectorDiv" value="Seleccionar">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>$('p')</strong>
+          </td>
+          <td>
+            <strong>Todos los elementos div</strong>
+          </td>
+          <td>
+            <input type="button" id="selectorP" value="Seleccionar">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>$('input')</strong>
+          </td>
+          <td>
+            <strong>Todos los elementos input.</strong>
+          </td>
+          <td>
+            <input type="button" id="selectorInput" value="Seleccionar">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>$('div p')</strong>
+          </td>
+          <td>
+            <strong>Todos los dentro de p.</strong>
+          </td>
+          <td>
+            <input type="button" id="selectorDivP" value="Seleccionar">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="contenedorElementos">
+      <h2>Elementos</h2>
+      <fieldset id="contenedorElementosInterno">
+        <label>Correo: </label><br>
+        <input type="text" id="correo" value="amils21@gmail.com">
+        <br>
+        <input type="text" class="campo" value="clase campo">
+        <input type="text" class="campo" value="clase campo">
+        <input type="text" class="campo" value="clase campo">
+        <input type="text" class="campo" value="clase campo">
+        <input type="text" class="campo" value="clase campo">
+        <input type="text" class="campo" value="clase campo">
+        <div>
+          <br>
+          DIV
+        </div>
+        <div>
+          <br>
+          DIV
+        </div>
+        <div>
+          <br>
+          DIV
+        </div>
+        <p>
+          P
+        </p>
+        <p>
+          P
+        </p>
+        <input type="text" value="INPUT">
+        <input type="text" value="INPUT">
+        <input type="text" value="INPUT">
+
+      </fieldset>
+    </div>
+
+  </body>
+</html>

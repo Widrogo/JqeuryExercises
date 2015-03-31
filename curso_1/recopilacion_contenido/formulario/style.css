@@ -1,0 +1,48 @@
+.seleccionado{
+  border: 3px solid blue;
+}
+table, td, th{
+  border: 1px solid green;
+}
+th {
+  background-color: green;
+  color: white;
+}
+td{
+  padding: 15px;
+}
+table{
+  margin-left: 100px;
+  margin-right: 50px;
+}
+#contenedorElementoInterno{
+  background-color: white;
+  margin: 50px;
+}
+#contenedorElementos{
+    background-color: #E5EECC;
+    border: 1px solid #D4D4D4;
+    color: #000000;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    width: 616px;
+}
+.error{
+  border: solid 2px red;
+  color: red;
+}
+.borrarTelefono{
+  color: red;
+}
+#formulario{
+  background-color: #E5EECC;
+  border: 1px solid #D4D4D4;
+  color: #000000;
+  padding: 50px;
+  position: relative;
+  text-align: center;
+  top: 40px;
+  width: 616px;
+}
